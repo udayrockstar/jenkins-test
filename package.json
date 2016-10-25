@@ -4,9 +4,12 @@
   "description": "jenkins test",
   "main": "index.js",
   "dependencies": {
-    "grunt": "^1.0.1"
+    "grunt": "^1.0.1",
+    "karma-junit-reporter": "^1.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "karma-junit-reporter": "^1.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
