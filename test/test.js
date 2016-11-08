@@ -3,7 +3,7 @@ describe('mock http test', function() {
     it('should load default movies (with mock http request)', function() {
         // var moviesController = $controller('firstCnt', {
         //     $scope: $scope
-        // });
+        // });  this is check
         // $httpBackend.flush();
         expect(1).toEqual(1);
         // expect($scope.status).toEqual(200);
